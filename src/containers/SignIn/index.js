@@ -3,7 +3,6 @@ import { Layout, Form, Row, Col, notification } from "antd";
 //components
 import Buttons from "../../components/botonLogin";
 import Inputs from "../../components/input";
-import Footers from "../../components/footer";
 //Router
 import { useRouter } from "next/router";
 
@@ -93,8 +92,7 @@ export default function SignIn() {
             </Col>
           </Row>
         </view>
-      </Content>
-      <Footers></Footers>
+      </Content>      
     </Layout>
   );
 }
